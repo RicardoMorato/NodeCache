@@ -1,0 +1,13 @@
+{
+  "name": "NodeCache",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/RicardoMorato/NodeCache.git",
+  "author": "Ricardo Morato Rocha <ricardomorator@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "redis": "^3.0.2"
+  }
+}
