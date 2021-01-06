@@ -7,7 +7,7 @@ const app = express();
 const port = 8080;
 
 // Connecting to the local instance of redis
-const client = redis.createClient(6379);
+const client = redis.createClient(process.env.REDIS_URL);
 
 client.on('error', (error) => {
   console.error(error);
